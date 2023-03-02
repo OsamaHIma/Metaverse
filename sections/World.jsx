@@ -67,31 +67,35 @@ const World = () => {
             <div className="polygon w-[44px] h-[44px] absolute bg-[#5d6680] rounded-tl-[47px] rounded-[10px] rotate-45 top-[53.7%] right-[50.4%] z-0  "></div>
           </div>
 
-          <div className="absolute w-[196px] h-[150px] left-[65%] top-[10%]  img-bg  rounded-[32px] px-[12px] py-[10px] ">
-            <img src="/img.png" alt="" className="rounded-[32px] object-cover " />
-            <div className="flex absolute top-[40%] w-full">
-              <div className="imgs flex flex-row mx-2 ">
+          <div className="absolute w-[211px] h-[159px] left-[65%] top-[10%] img-bg rounded-[32px] px-[12px] py-[10px] ">
+            <img
+              src="/img.png"
+              alt=""
+              className="rounded-[32px] object-cover "
+            />
+            <div className="flex absolute top-[40%] w-[80%] justify-between items-center px-1">
+              <div className="imgs flex flex-row">
                 <img
-                  src="/people-01.png"
+                  src="/Ellipse 42.png"
                   alt="people"
-                  className="w-[24px] h-[24px] z-2 "
+                  className="w-[24px] h-[24px] z-2 absolute"
                 />
                 <img
-                  src="/people-02.png"
+                  src="/Ellipse 43.png"
                   alt="people"
-                  className="w-[24px] h-[24px] z-1 "
+                  className="w-[24px] h-[24px] z-1 absolute left-5"
                 />
                 <img
-                  src="/people-03.png"
+                  src="/Ellipse 44.png"
                   alt="people"
-                  className="w-[24%px] h-[24px] z-0"
+                  className="w-[24px] h-[24px] z-0 absolute left-8"
                 />
               </div>
-              <div className="text">
-                <p className="text-white text-[10px] mb-0 ">+ 257 has joined</p>
+              <div>
+                <p className="text-white text-[10px] mb-0">+ 257 has joined</p>
               </div>
             </div>
-            <h1 className="absolute text-white font-semibold top-[6rem] right-[3.9rem]">
+            <h1 className="absolute text-white font-semibold top-[6.5rem] right-[3.9rem]">
               Hawkins Labs
             </h1>
           </div>

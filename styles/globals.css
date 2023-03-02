@@ -8,23 +8,21 @@
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
-
 }
 
 ::selection {
   color: #f0f0f0;
   background: #bb46e6a4;
-
 }
 ::-webkit-scrollbar {
   width: 13px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #7aecfbaf;
+  background: linear-gradient(97.86deg, #a509ff 0%, #34acc7 53.65%, #a134c7 100%);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #bb46e6d0;
+  background-color: #cf4dff;
   border-radius: 13px;
 }
 ::-webkit-scrollbar-thumb:hover {
