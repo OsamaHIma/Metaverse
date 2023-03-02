@@ -1,4 +1,5 @@
-"use client";
+'use client'
+
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { staggerContainer, fadeIn, zoomIn } from "../utils/motion";
