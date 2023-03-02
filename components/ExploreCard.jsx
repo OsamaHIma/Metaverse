@@ -1,13 +1,14 @@
 'use client';
 
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { navVariants, fadeIn } from "../utils/motion";
+import { motion } from 'framer-motion';
+import styles from '../styles';
+import { fadeIn } from '../utils/motion';
+
 const ExploreCard = ({ id, imgUrl, index, title, active, handelClick }) => (
   <motion.div
-    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
-      active === id ? "lg:flex-[3.5] flex-[10]" : "la:flex-[0.5] flex-[2]"
+      active === id ? 'lg:flex-[3.5] flex-[10]' : 'la:flex-[0.5] flex-[2]'
     } flex items-center transition-[flex] justify-center h-[700px] min-w-[170px] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handelClick(id)}
   >
