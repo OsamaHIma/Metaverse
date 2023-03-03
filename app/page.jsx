@@ -17,7 +17,9 @@ import Preloader from "../components/PreLoader";
 const Page = () => {
   const [isLoading, setLoading] = useState(true);
   useEffect(() => {
-    setLoading(false);
+    setTimeout(() => {
+      setLoading(false);
+    }, 600);
   }, []);
 
   return (
